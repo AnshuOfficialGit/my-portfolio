@@ -679,6 +679,7 @@ main.drake-main {
     border-radius: 30px;
     display: block;
     margin-bottom: 56px;
+    margin-left: 20%;
 }
 .left-sidebar .sidebar-header {
     margin-bottom: 65px;
@@ -990,9 +991,9 @@ body .body-overlay {
 }
 .skills .skill .skill-inner {
     border: 2px solid #565656;
-    border-radius: 85px;
-    padding: 54px 0 48px 0;
-    margin-bottom: 20px;
+    border-radius: 60px;
+    padding: 54px 0px 30px 0px;
+    margin-bottom: 10px;
     transition: .3s;
 }
 .skills .skill:hover .skill-inner {
@@ -1000,7 +1001,8 @@ body .body-overlay {
 }
 .skills .skill .skill-inner img {
     display: block;
-    margin: auto auto 29px auto;
+    margin: auto auto 10px auto;
+    max-width: 30%;
 }
 .skills .skill .skill-inner h1 {
     font-size: 30px;
@@ -1028,7 +1030,7 @@ body .body-overlay {
     margin-bottom: 0;
 }
 .portfolio-items .portfolio-item .portfolio-item-inner {
-    height: 370px;
+    height: 270px;
     overflow: hidden;
     border-radius: 30px;
     position: relative;
